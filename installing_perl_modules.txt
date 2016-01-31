@@ -1,0 +1,16 @@
+Installing perl modules
+
+cpan
+
+cpan App::cpanminus
+
+cpanm Text::CSV
+
+
+/usr/bin/perl -MCPAN -e 'install Email::Reply'
+
+# cpan
+cpan shell -- CPAN exploration and modules installation (v1.9205)
+ReadLine support available (maybe install Bundle::CPAN or Bundle::CPANxxl?)
+
+cpan[1]> install "Email::Reply";
