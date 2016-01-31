@@ -6,6 +6,10 @@
  * [Why perl ?](http://google.co.in)
  * [Installation](https://www.perl.org/)
  * Writing my first perl program
- * Conventions
-2. 
+ * [Conventions] (https://github.com/sdonapar/perl_training/blob/master/material/conventions.md)
+2. [Data Types](https://github.com/sdonapar/perl_training/blob/master/material/data_types.md)
+ * Scalar ($)
+ * List/Array (@)
+ * Hash (%)
+
 
