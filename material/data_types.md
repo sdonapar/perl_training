@@ -7,11 +7,11 @@
 * **Hashes** - Hashes are unordered sets of key/value pairs that you access using the keys as subscripts. They are preceded by a percent sign (%).
 
 
-* Numeric Literals
+* **Numeric Literals**
   - Integer, Negative integer, Floating point
   - Scientific notation, Hexadecimal, Octal
 
-* String Literals
+* **String Literals**
   - Backslash (\\), Single quote (\'), Double quote (\")
   - Newline (\n), Carriage return (\r), Horizontal tab (\t)
 
