@@ -10,8 +10,8 @@ print ("Enter your name : ");
 my $name = <STDIN>;
 chomp($name);
 
-print "$greeting $name to perl\n"; # variables are treated differently
+print "$greeting $name to perl\n"; # Interpolative
 
-print '$greeting $name'."\n"; # no special treatment
+print '$greeting $name'."\n"; # literal
 
 

@@ -11,5 +11,17 @@
  * Scalar ($)
  * List/Array (@)
  * Hash (%)
+3. Conditional statements
+ * if statement
+ * if....else statement
+ * if....elsif....else statement
+ * unless statement
+ * unless....(elsif....else)
+ * swithc statement
+ * while statement
+ * The ? : Operator
+  - Exp1 ? Exp2 : Exp3;
+
+
 
 
