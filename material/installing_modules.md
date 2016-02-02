@@ -1,23 +1,36 @@
-Install Perl Modules Manually
-<code>
-# cd /home/download
-# gzip -d XML-Parser-2.36.tar.gz
-# tar xvf XML-Parser-2.36.tar
-# cd XML-Parser-2.36
-my $full_program_name = '/home/sasi/perl/sub.pl';
-my $program_name = get_program_name($full_program_name);
-# print("$program_name\n");
-</code>
+## Installing perl modules
 
-cpan App::cpanminus
+if you see the message like
+**Can't locate XML/parser.pm in @INC (@INC contains:**
+you do not have the module installed on your system
+
+*Manually
 
 <!-- language: lang-perl -->
-### 
-    my $full_program_name = '/home/sasi/perl/sub.pl';
-    my $program_name = get_program_name($full_program_name);
-    print("$program_name\n");
-    if ($gender eq 'M')
-    {
-    	my $status = ($age >= 21 ) ? "Major" : "Minor";
-    	print "Status : $status\n";
-    }
+ 
+    # cd /home/download
+    # gzip -d XML-Parser-2.36.tar.gz
+    # tar xvf XML-Parser-2.36.tar
+    # cd XML-Parser-2.36
+    # perl Makefile.PL
+      Checking if your kit is complete...
+      Looks good
+      Writing Makefile for XML::Parser::Expat
+      Writing Makefile for XML::Parser
+    # make
+    # make test
+    # make install
+
+* using CPAN automatically
+
+<!-- language: lang-perl -->
+
+    # /usr/bin/perl -MCPAN -e 'install Email::Reply'
+
+    # cpan
+      cpan shell -- CPAN exploration and modules installation 
+      ReadLine support available
+
+    cpan[1]> install "Email::Reply";
+
+
