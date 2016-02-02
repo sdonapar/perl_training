@@ -10,3 +10,10 @@ my $program_name = get_program_name($full_program_name);
 </code>
 
 cpan App::cpanminus
+
+<!-- language: lang-js -->
+
+    var a = 3;
+    while (not (a > 0)) {
+        alert("JavaScript code <b>goes</b> here.");
+    }
