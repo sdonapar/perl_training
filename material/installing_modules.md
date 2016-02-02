@@ -11,9 +11,13 @@ my $program_name = get_program_name($full_program_name);
 
 cpan App::cpanminus
 
-<!-- language: lang-js -->
+<!-- language: lang-perl -->
 
-    var a = 3;
-    while (not (a > 0)) {
-        alert("JavaScript code <b>goes</b> here.");
+    my $full_program_name = '/home/sasi/perl/sub.pl';
+    my $program_name = get_program_name($full_program_name);
+    print("$program_name\n");
+    if ($gender eq 'M')
+    {
+    	my $status = ($age >= 21 ) ? "Major" : "Minor";
+    	print "Status : $status\n";
     }
