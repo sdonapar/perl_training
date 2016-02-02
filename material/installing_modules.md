@@ -12,7 +12,7 @@ my $program_name = get_program_name($full_program_name);
 cpan App::cpanminus
 
 <!-- language: lang-perl -->
-
+### 
     my $full_program_name = '/home/sasi/perl/sub.pl';
     my $program_name = get_program_name($full_program_name);
     print("$program_name\n");
