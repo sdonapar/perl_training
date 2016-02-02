@@ -1,17 +1,27 @@
 #!/usr/bin/perl
 # usage of readline function
-
 use strict;
 
-my $file = $ARGV[0] or die "Usage : $0 <input file>\n";
+my $var = 10;
 
-open(DATA,$file);
-print ($file."\n");
-my $rec;
+my $var_ref = \$var;
 
-while($rec = readline(DATA))
-{
-	chomp($rec);
-	my @fields = split(/,/,$rec);
-	print $fields[1]."\n";	
-}
+print(ref $var_ref,"\n");
+
+my $arr_ref = [10,20,30];
+
+print(ref $arr_ref,"\n");
+
+my $hash_ref = {'a' => 1, 'b' => 2};
+
+print(ref $hash_ref,"\n");
+
+my $code_ref = sub { print "code ref\n"};
+
+print(ref $code_ref,"\n");
+
+
+&$code_ref();
+ 
+print ("@$arr_ref\n");
+print (%$hash_ref,"\n");

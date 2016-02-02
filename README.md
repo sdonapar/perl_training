@@ -17,10 +17,16 @@
  * if....elsif....else statement
  * unless statement
  * unless....(elsif....else)
- * swithc statement
- * while statement
  * The ? : Operator
   - Exp1 ? Exp2 : Exp3;
+4. Loops
+5. Operators
+5. Handling Date & time
+6. Subrouties ( Functions )
+7. File IO operations
+8. Regular Expressions
+9. Special Variables
+10. Overview of DBI
 
 
 
